@@ -4,7 +4,7 @@ import {
   getNavigatorBluetoothAvailability,
   bluetoothAvailableMessage,
   celciusToFahrenheit,
-} from '../../../../corelogic/usecases/temperature'
+} from './temperature'
 
 const Temperature: React.FC<unknown> = () => {
   const [messageNote, setMessageNote] = useState('')
